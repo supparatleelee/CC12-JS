@@ -1,4 +1,3 @@
-// Lab 4.5
 const nickname = document.querySelector('input');
 const job = document.querySelectorAll('input')[1];
 
@@ -14,3 +13,5 @@ nickname.addEventListener('input', function (event) {
 job.addEventListener('input', function (event) {
   console.log(event.target.value);
 });
+
+//The target event property returns the element that triggered the event.

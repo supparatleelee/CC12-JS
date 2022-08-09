@@ -7,7 +7,7 @@ const tasks = [
 function deleteTask(id) {
   let result = tasks.findIndex((item) => item.id === id);
 
-  tasks.splice(result, 1); // automatically input the index of the result (?)
+  tasks.splice(result, 1);
 }
 
 deleteTask(1);
