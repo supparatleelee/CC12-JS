@@ -3,3 +3,7 @@ let salaries = {
   Pete: 300,
   Mary: 250,
 };
+
+function topSalaries(salaries) {
+  return;
+}

@@ -9,17 +9,33 @@ class Calculator {
   }
   // (value) is no the same as value above (this one belongs to constructor function && that one belongs to class properties)
   //this.value = this = class (properties) = value (this constructor function)
-  sum() {}
+  sum(num) {
+    this.value += num;
+  }
 
-  subtract() {}
+  subtract(num) {
+    this.value -= num;
+  }
 
-  multiply() {}
+  multiply(num) {
+    this.value *= num;
+  }
 
-  divide() {}
+  divide(num) {
+    this.value /= num;
+  }
 
-  show() {}
+  show() {
+    alert(this.value);
+  }
 }
 
 //
 let result = new Calculator(10); // () -> constructor function
 // result will be an object that automatically has those properties and methods in that class
+
+result.sum(100);
+result.subtract(2);
+result.multiply(3);
+result.divide(2);
+result.show();

@@ -1,12 +1,3 @@
-function removeRandom() {
-  // [0, 1)
-  //need to know length of the array [0, array.length) -> Math.floor(Math.random() * array.length)
-}
-
-removeRandom();
-
-// Do it later
-
 // Math.random(); // [0, 1)
 // [1, 2, 3, 4, 5, 6] // 0, 1, 2, 3, 4, 5
 // Math.random() * arr.length // [0, arr.length)
