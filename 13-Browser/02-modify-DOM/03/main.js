@@ -4,5 +4,5 @@
 // console.log(thirdLi);
 // let thirdLi = document.getElementById('3');
 // console.log(thirdLi);
-let thirdLi = document.getElementsByTagName('li');
-console.log(thirdLi[2]);
+// let thirdLi = document.getElementsByTagName('li');
+// console.log(thirdLi[2]);
